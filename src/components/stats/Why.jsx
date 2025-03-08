@@ -20,7 +20,7 @@ const Why = () => {
             data-aos="fade-left"
             data-aos-offset="400"
           >
-            <h2 className="section-title">Why you Should choose Weismann Trading Growth Investments</h2>
+            <h2 className="section-title">Trading Growth investments - smart crypto invests</h2>
             <p className="section-subtitle">
               Experience the next generation cryptocurrency platform. No
               financial borders, extra fees, and fake reviews.
