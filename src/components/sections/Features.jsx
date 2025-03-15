@@ -15,8 +15,7 @@ const Features = () => {
             data-aos="fade-up"
             data-aos-offset="400"
           >
-            Market Sentiments, portfolio, and run the infrastructure of your
-            choice.
+            Let us help you build your Portfolio using our recommended Infrastructure with an 87.6% success rate.
           </h2>
         </div>
         <FeatureSection1 />

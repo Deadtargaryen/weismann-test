@@ -12,16 +12,16 @@ const FeatureSection1 = () => {
           data-aos="fade-right"
           data-aos-offset="400"
         >
-          <h3 className="h3 mb-6">Invest Smart</h3>
-          <p className="text-slate-700 mb-8">
-            Get full statistic information about the behaviour of buyer and
-            seller will help you to make the decision.
+          <h3 className="mb-6 h3">Invest Smart</h3>
+          <p className="mb-8 text-slate-700">
+            Access full statistical information about the behaviour of the market while
+            our price analysts and stock brokers will make smart trading and investment choices for you
           </p>
-          <button className="btn px-8 mx-auto lg:mx-0">Learn More</button>
+          <button className="px-8 mx-auto btn lg:mx-0">Start Investing</button>
         </div>
         {/* image sections */}
         <div
-          className="flex-1 flex justify-end"
+          className="flex justify-end flex-1"
           data-aos="fade-left"
           data-aos-offset="400"
         >

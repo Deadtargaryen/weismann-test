@@ -35,7 +35,7 @@ function App() {
       </div>
       <Stats />
       <Why />
-      <Calculate />
+      {/* <Calculate /> */}
       <Trade />
       <Features />
       <NewsLetter />

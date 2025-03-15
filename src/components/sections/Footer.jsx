@@ -5,10 +5,7 @@ import MastercardImg from "../../assets/img/mastercard.png";
 import BitcoinImg from "../../assets/img/bitcoin.png";
 
 import {
-  IoLogoYoutube,
-  IoLogoInstagram,
-  IoLogoTwitter,
-  IoLogoLinkedin,
+  IoMdPaperPlane
 } from "react-icons/io";
 
 const Footer = () => {
@@ -66,16 +63,16 @@ const Footer = () => {
               <ul className="space-y-4 text-gray-500">
                 <li>
                   <a className="transition hover:text-blue" href="#/">
-                    Download Whitepapper
+                    Download Whitepaper
                   </a>
                 </li>
                 <li>
                   <a className="transition hover:text-blue" href="#/">
-                    Smart Token
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className="transition hover:text-blue" href="#/">
+                  <a className="transition hover:text-blue" href="https://www.blockchainexplorer.com">
                     Blockchain Explore
                   </a>
                 </li>
@@ -86,7 +83,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a className="transition hover:text-blue" href="#/">
-                    Interest
+                    Terms & Conditions
                   </a>
                 </li>
               </ul>
@@ -113,19 +110,17 @@ const Footer = () => {
           {/* copy text */}
           <div>&copy; 2025 Weismann Trading Growth Investments. All rights reserved.</div>
           {/* social icons */}
-          <div className="flex text-2xl gap-x-8">
-            <a className="transition hover:text-blue" href="#/">
-              <IoLogoYoutube />
+          <div className="flex text-2xl gap-x-1">
+          <IoMdPaperPlane />
+            <a className="text-sm transition hover:text-blue-900 hover:underline" href="https://t.me/Angeloweismannfx">
+            Send us a message on Telegram
             </a>
-            <a className="transition hover:text-blue" href="#/">
-              <IoLogoInstagram />
-            </a>
-            <a className="transition hover:text-blue" href="#/">
+            {/* <a className="transition hover:text-blue" href="#/">
               <IoLogoTwitter />
             </a>
             <a className="transition hover:text-blue" href="#/">
               <IoLogoLinkedin />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
