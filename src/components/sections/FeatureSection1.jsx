@@ -17,7 +17,9 @@ const FeatureSection1 = () => {
             Access full statistical information about the behaviour of the market while
             our price analysts and stock brokers will make smart trading and investment choices for you
           </p>
+          <a href='https://portal.weismanntradingrowth.com'>
           <button className="px-8 mx-auto btn lg:mx-0">Start Investing</button>
+          </a>
         </div>
         {/* image sections */}
         <div

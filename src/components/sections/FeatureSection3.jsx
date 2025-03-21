@@ -14,7 +14,9 @@ const FeatureSection3 = () => {
             Use advance analytical tools. As part of our partnership, tradingview charts let you
             track current and historical profit investments.
           </p>
+          <a href='https://portal.weismanntradingrowth.com'>
           <button className="px-8 mx-auto mb-5 btn lg:mx-0">Get Started</button>
+          </a>
         </div>
         {/* Image */}
         <div

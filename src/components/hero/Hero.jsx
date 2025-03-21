@@ -16,7 +16,7 @@ const Hero = () => {
             data-aos-delay="400"
           >
             <div className="flex items-center justify-between text-sm lg:text-base">
-              <div className="bg-white text-darkblue rounded-full p-1 px-4 font-medium">
+              <div className="p-1 px-4 font-medium bg-white rounded-full text-darkblue">
                 75% SAVE
               </div>
               <div>For the Black Friday weekend</div>
@@ -35,15 +35,15 @@ const Hero = () => {
             data-aos="fade-down"
             data-aos-delay="600"
           >
-            Buy and Sell cryptocurrency, trusted by 10M wallets with over $30
+            Trade cryptocurrency, trusted by 10M wallets with over $30
             billion in transactions.
           </p>
           <button
-            className="bg-blue-500  px-6 py-2 rounded-full text-white text-sm lg:h-16 lg:text-base font-bold gap-x-6"
+            className="px-6 py-2 text-sm font-bold text-white bg-blue-500 rounded-full lg:h-16 lg:text-base gap-x-6"
             data-aos="fade-down"
             data-aos-delay="700"
           >
-            <div className="flex items-center justify-betweeen gap-2">
+            <div className="flex items-center gap-2 justify-betweeen">
               Try for Free
               <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl" />
             </div>
