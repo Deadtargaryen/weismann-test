@@ -4,15 +4,17 @@ const Login = () => {
   return (
     <div className="flex items-center font-medium">
       {/* link button */}
-      <a href="#/" className="hover:text-blue transition">
+      <a href="https://portal.weismanntradingrowth.com/auth/login" className="transition hover:text-blue">
         Login
       </a>
       {/* Seperator */}
-      <span className="mx-6 text-slate-300 font-thin">|</span>
+      <span className="mx-6 font-thin text-slate-300">|</span>
       {/* Register button */}
-      <button className="py-2 bg-blue-500 px-8 hover:bg-blue-600 text-white rounded-full text-base ">
+      <a href="https://portal.weismanntradingrowth.com/auth/register">
+      <button className="px-8 py-2 text-base text-white bg-blue-500 rounded-full hover:bg-blue-600 ">
         Register
       </button>
+      </a>
     </div>
   );
 };
