@@ -38,16 +38,15 @@ const Hero = () => {
             Trade cryptocurrency, trusted by 10M wallets with over $30
             billion in transactions.
           </p>
+          <a href="https://portal.weismanntradingrowth.com/auth/register">
           <button
             className="px-6 py-2 text-sm font-bold text-white bg-blue-500 rounded-full lg:h-16 lg:text-base gap-x-6"
-            data-aos="fade-down"
-            data-aos-delay="700"
           >
             <div className="flex items-center gap-2 justify-betweeen">
-              Try for Free
+              Get Started
               <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl" />
             </div>
-          </button>
+          </button></a>
         </div>
         {/* Hero image flex-col2nd element */}
         <div className="flex-1">

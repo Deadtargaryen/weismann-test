@@ -5,18 +5,18 @@ import Login from "./Login";
 const AccountBtns = () => {
   return (
     <nav className="flex items-center gap-11">
-      <ul className="flex gap-x-8">
+      {/* <ul className="flex gap-x-8">
         {navData.map((item, index) => {
           return (
             <li
-              className="border-b-2 border-transparent hover:border-blue transition-all duration-300"
+              className="transition-all duration-300 border-b-2 border-transparent hover:border-blue"
               key={index}
             >
               <a href={item.href}>{item.name}</a>
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <Login />
     </nav>
   );

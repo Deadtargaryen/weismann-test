@@ -298,7 +298,6 @@ const Footer = () => {
 
                   <b>Weismann Trading Growth Investments</b><br />
                   Email: info@weismanntradingrowth.com<br />
-                  Address: [Insert Office Address]<br />
 
                   By using our services, you agree to the terms of this Privacy Policy.<br />
                   Please review it carefully and reach out to us with any concerns.<br />

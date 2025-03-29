@@ -9,12 +9,12 @@ export const navData = [
         href: '#/',
     },
     {
-        name: 'About',
-        href: '#/',
+        name: 'Register',
+        href: 'https://portal.weismanntradingrowth.com/auth/register',
     },
     {
-        name: 'Contact',
-        href: '#/',
+        name: 'Login',
+        href: 'https://portal.weismanntradingrowth.com/auth/login',
     },
 ];
 
