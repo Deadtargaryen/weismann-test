@@ -25,7 +25,9 @@ const Why = () => {
               Experience the next generation cryptocurrency platform. No
               financial borders, extra fees, and fake reviews.
             </p>
+            <a href="/about">
             <button className="px-6 btn">Learn more</button>
+            </a>
           </div>
         </div>
       </div>

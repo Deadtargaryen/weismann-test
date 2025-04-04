@@ -21,9 +21,9 @@ const Header = ({ setNavMobile }) => {
       data-aos-delay="400"
       data-aos-duration="2000"
     >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container flex items-center justify-between mx-auto">
         {/* logo */}
-        <a href="#/">
+        <a href="/">
           <img src={Logo} alt="logo" />
         </a>
         {/* Nav butttons */}
@@ -32,7 +32,7 @@ const Header = ({ setNavMobile }) => {
           <AccountBtns />
         </div>
         {/* Open nav button */}
-        <div onClick={handleClick} className="lg:hidden cursor-pointer">
+        <div onClick={handleClick} className="cursor-pointer lg:hidden">
           <CgMenuRight className="text-2xl" />
         </div>
       </div>
